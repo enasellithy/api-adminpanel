@@ -1,0 +1,41 @@
+<?php
+
+function name(){
+    return [
+        'make:controller' => 'make:controller',
+        'make:event' => 'make:event',
+        'make:job' => 'make:job',
+        'make:listener' => 'make:listener',
+        'make:mail' => 'make:mail',
+        'make:middleware' => 'make:middleware',
+        'make:migration' => 'make:migration',
+        'make:model' => 'make:model',
+        'make:notification' => 'make:notification',
+        'make:policy' => 'make:policy',
+        'make:provider' => 'make:provider',
+        'make:request' => 'make:request',
+        'make:resource' => 'make:resource',
+        'make:seeder' => 'make:seeder',
+        'make:test' => 'make:test',
+        'migrate:fresh' => 'migrate:fresh',
+        'migrate:install' => 'migrate:install',
+        'migrate:refresh' => 'migrate:refresh',
+        'migrate:reset' => 'migrate:reset',
+        'migrate:rollback' => 'migrate:rollback',
+        'migrate:status' => 'migrate:status',
+        'notifications:table' => 'notifications:table',
+        'queue:failed' => 'queue:failed',
+        'queue:failed-table' => 'queue:failed-table',
+        'queue:flush' => 'queue:flush',
+        'queue:forget' => 'queue:forget',
+        'queue:listen' => 'queue:listen',
+        'queue:restart' => 'queue:restart',
+        'queue:retry' => 'queue:retry',
+        'queue:table' => 'queue:table',
+        'queue:work' => 'queue:work',
+        'route:cache' => 'route:cache',
+        'route:clear' => 'route:clear',
+        'route:list' => 'route:list',
+        'schedule:run' => 'schedule:run'
+    ];
+}
